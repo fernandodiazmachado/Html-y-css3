@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+img{
+    padding-top: 1em; /*toma los 16px como unidad de medida*/
+    width: 20%;
+}
+
+nav{
+    background-color: steelblue;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    display: inline-block; /*lo utilizo para luego con el padding poder aumentar el ancho de la barra nav*/
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:hover{ /*color a todas las etiquetas a en nav al pasar el mouse por encima*/
+    color: tomato;
+}
